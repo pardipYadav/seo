@@ -60,7 +60,7 @@ export default function Header() {
               )}
             </ul>
           </nav>
-          <Link href="/contact" className="btn btn-primary header-cta desktop-only">Get Free SEO Consultation</Link>
+          <Link href="/contact" className="btn btn-primary header-cta desktop-only">Get Free Consultation</Link>
           <button
             className="mobile-toggle"
             onClick={() => setMobileOpen(!mobileOpen)}
@@ -98,7 +98,7 @@ export default function Header() {
           <div className="mobile-menu-footer">
             <a href={`tel:${siteConfig.phoneTel}`} className="mobile-contact">{siteConfig.phone}</a>
             <Link href="/contact" className="btn btn-primary" onClick={() => setMobileOpen(false)}>
-              Get Free SEO Consultation
+              Get Free Consultation
             </Link>
           </div>
         </div>

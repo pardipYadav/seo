@@ -7,9 +7,9 @@ import { createMetadata } from "@/lib/metadata";
 import { packages, customPackage, pricingDisclaimer, rankingDisclaimer } from "@/data/packages";
 
 export const metadata: Metadata = createMetadata({
-  title: "SEO Packages Starting at $1,000 | GobalCareSolutions",
+  title: "Digital Marketing Packages Starting at $100 | GobalCareSolutions",
   description:
-    "Explore SEO packages starting at $1,000/month from GobalCareSolutions. Choose from Starter, Growth, Pro, E-commerce, Enterprise, or Custom SEO plans.",
+    "Explore digital marketing packages starting at $100/month from GobalCareSolutions. All packages include SEO, social media, and content marketing services.",
   path: "/seo-packages",
 });
 
@@ -18,9 +18,9 @@ export default function SEOPackagesPage() {
     <>
       <section className="page-hero">
         <div className="container">
-          <Breadcrumbs items={[{ label: "SEO Packages" }]} />
-          <h1>SEO Packages Starting at $1,000</h1>
-          <p className="hero-desc">Transparent, professional SEO packages designed for businesses at every stage. All packages include ethical practices, monthly reporting, and dedicated strategy.</p>
+          <Breadcrumbs items={[{ label: "Digital Marketing Packages" }]} />
+          <h1>Digital Marketing Packages Starting at $100</h1>
+          <p className="hero-desc">Affordable, professional digital marketing packages with SEO included. All packages feature ethical practices, monthly reporting, and dedicated strategy.</p>
         </div>
       </section>
 

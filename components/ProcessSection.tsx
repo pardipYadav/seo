@@ -7,8 +7,8 @@ export default function ProcessSection() {
       <div className="container">
         <SectionHeading
           label="Our Process"
-          title="How We Deliver SEO Results"
-          description="A structured, transparent approach to improving your search visibility and organic growth."
+          title="How We Deliver Digital Marketing Results"
+          description="A structured, transparent approach to improving your online visibility and business growth."
         />
         <div className="process-grid">
           {processSteps.map((step) => (

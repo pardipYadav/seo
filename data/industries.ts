@@ -147,9 +147,9 @@ export const processSteps = [
 ];
 
 export const trustPoints = [
-  "Ethical SEO Practices",
+  "Ethical Marketing Practices",
   "Transparent Strategy",
-  "Data-Driven Optimization",
+  "Data-Driven Campaigns",
   "Long-Term Growth",
 ];
 
@@ -157,48 +157,48 @@ export const whyChooseUs = [
   {
     title: "Ethical Approach",
     description:
-      "We follow search engine guidelines and focus on sustainable strategies — never spam links, keyword stuffing, or manipulative tactics.",
+      "We follow platform and search engine guidelines, focusing on sustainable strategies — never spam tactics or manipulative marketing.",
   },
   {
     title: "Transparent Reporting",
     description:
-      "Monthly reports show exactly what work was done, how rankings changed, and what is planned for the next cycle.",
+      "Monthly reports show exactly what work was done, how performance changed across channels, and what is planned for the next cycle.",
   },
   {
     title: "Customized Strategy",
     description:
-      "Every business is different. We tailor SEO packages and strategies to your industry, competition, and goals.",
+      "Every business is different. We tailor digital marketing packages and strategies to your industry, competition, and goals.",
   },
   {
-    title: "Full-Service SEO",
+    title: "Full-Service Digital Marketing",
     description:
-      "From technical audits to content creation and link earning, we cover every dimension of search engine optimization.",
+      "From SEO and content to social media and brand visibility, we cover every dimension of your online marketing needs.",
   },
 ];
 
 export const seoBenefits = [
   {
-    title: "Sustainable Traffic",
-    description: "Organic search delivers consistent visitors without paying for every click.",
+    title: "More Online Visibility",
+    description: "Reach customers across search engines, social media, and the web.",
   },
   {
     title: "Higher Trust",
-    description: "Users trust organic results more than paid ads, leading to better engagement.",
+    description: "Strong online presence builds credibility and customer confidence.",
   },
   {
-    title: "Cost Efficiency",
-    description: "SEO compounds over time, reducing cost per acquisition as visibility grows.",
+    title: "Cost-Effective Growth",
+    description: "Digital marketing delivers compounding returns as your online presence grows.",
   },
   {
     title: "Competitive Edge",
-    description: "Outrank competitors for keywords your customers actively search for.",
+    description: "Stay ahead of competitors with strategic SEO and multi-channel marketing.",
   },
   {
     title: "Brand Authority",
-    description: "Strong search presence positions your brand as an industry leader.",
+    description: "Consistent marketing positions your brand as a leader in your industry.",
   },
   {
     title: "Measurable Results",
-    description: "Track rankings, traffic, and conversions with clear analytics and reporting.",
+    description: "Track traffic, engagement, rankings, and conversions with clear analytics.",
   },
 ];

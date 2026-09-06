@@ -23,7 +23,6 @@ const legalLinks = [
 ];
 
 export default function Footer() {
-  const footerServices = serviceNavItems.slice(0, 6);
   const footerPackages = packages.slice(0, 5);
 
   return (
@@ -32,18 +31,18 @@ export default function Footer() {
         <div className="footer-grid">
           <div className="footer-col footer-brand">
             <h3>{siteConfig.name}</h3>
-            <p>Professional SEO services to help businesses improve search visibility, attract qualified traffic, and build sustainable online growth.</p>
+            <p>Professional digital marketing services to help businesses improve online visibility, attract qualified traffic, and build sustainable growth — including SEO, social media, and content marketing.</p>
           </div>
           <div className="footer-col">
             <h4>Company</h4>
             <ul>{companyLinks.map((l) => <li key={l.href}><Link href={l.href}>{l.label}</Link></li>)}</ul>
           </div>
           <div className="footer-col">
-            <h4>SEO Services</h4>
-            <ul>{footerServices.map((l) => <li key={l.href}><Link href={l.href}>{l.label}</Link></li>)}</ul>
+            <h4>Services</h4>
+            <ul>{serviceNavItems.map((l) => <li key={l.href}><Link href={l.href}>{l.label}</Link></li>)}</ul>
           </div>
           <div className="footer-col">
-            <h4>SEO Packages</h4>
+            <h4>Marketing Packages</h4>
             <ul>{footerPackages.map((p) => <li key={p.id}><Link href="/seo-packages">{p.name}</Link></li>)}</ul>
           </div>
           <div className="footer-col">

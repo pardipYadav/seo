@@ -5,7 +5,7 @@ export const siteConfig = {
   phoneTel: "+18583319355",
   url: "https://gobalcaresolutions.vercel.app",
   description:
-    "Professional SEO services including local SEO, technical SEO, e-commerce SEO, keyword research, content SEO, and SEO packages starting at $1,000.",
+    "Professional digital marketing services including SEO, social media, content marketing, and digital marketing packages starting at $100.",
   address: "[Business Address]",
 } as const;
 

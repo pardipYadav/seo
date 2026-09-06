@@ -8,9 +8,9 @@ import { faqs } from "@/data/faqs";
 import { faqJsonLd, JsonLdScript } from "@/lib/jsonLd";
 
 export const metadata: Metadata = createMetadata({
-  title: "Frequently Asked Questions About SEO",
+  title: "Frequently Asked Questions About Digital Marketing",
   description:
-    "Find answers to common SEO questions about pricing, timelines, services, rankings, and getting started with GobalCareSolutions.",
+    "Find answers to common digital marketing questions about pricing starting at $100, SEO, services, and getting started with GobalCareSolutions.",
   path: "/faq",
 });
 
@@ -22,7 +22,7 @@ export default function FAQPage() {
         <div className="container">
           <Breadcrumbs items={[{ label: "FAQ" }]} />
           <h1>Frequently Asked Questions</h1>
-          <p className="hero-desc">Answers to common questions about SEO services, pricing, timelines, and how GobalCareSolutions can help your business.</p>
+          <p className="hero-desc">Answers to common questions about digital marketing services, pricing, and how GobalCareSolutions can help your business.</p>
         </div>
       </section>
 
@@ -35,8 +35,8 @@ export default function FAQPage() {
       <section className="section section-alt">
         <div className="container text-center">
           <h2>Still Have Questions?</h2>
-          <p className="text-muted" style={{ margin: "1rem 0 2rem" }}>Contact us for a free SEO consultation and personalized answers.</p>
-          <Link href="/contact" className="btn btn-primary">Get Free SEO Consultation</Link>
+          <p className="text-muted" style={{ margin: "1rem 0 2rem" }}>Contact us for a free digital marketing consultation and personalized answers.</p>
+          <Link href="/contact" className="btn btn-primary">Get Free Consultation</Link>
         </div>
       </section>
 

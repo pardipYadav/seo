@@ -5,7 +5,7 @@ import { createMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/siteConfig";
 
 export const metadata: Metadata = createMetadata({
-  title: "Contact GobalCareSolutions | Free SEO Consultation",
+  title: "Contact GobalCareSolutions | Free Digital Marketing Consultation",
   description:
     "Contact GobalCareSolutions for a free SEO consultation. Email gobalcaresolutions@outlook.com or call 1-858-331-9355.",
   path: "/contact",
@@ -18,7 +18,7 @@ export default function ContactPage() {
         <div className="container">
           <Breadcrumbs items={[{ label: "Contact" }]} />
           <h1>Contact GobalCareSolutions</h1>
-          <p className="hero-desc">Get in touch for a free SEO consultation. Tell us about your business and SEO goals, and we&apos;ll recommend the best approach.</p>
+          <p className="hero-desc">Get in touch for a free digital marketing consultation. Tell us about your business and goals, and we&apos;ll recommend the best approach.</p>
         </div>
       </section>
 

@@ -6,9 +6,9 @@ import { createMetadata } from "@/lib/metadata";
 import { industries } from "@/data/industries";
 
 export const metadata: Metadata = createMetadata({
-  title: "SEO for Every Industry | GobalCareSolutions",
+  title: "Digital Marketing for Every Industry | GobalCareSolutions",
   description:
-    "GobalCareSolutions provides tailored SEO services for local businesses, e-commerce, healthcare, legal, SaaS, and more industries.",
+    "GobalCareSolutions provides tailored digital marketing services including SEO for local businesses, e-commerce, healthcare, legal, SaaS, and more.",
   path: "/industries",
 });
 
@@ -18,8 +18,8 @@ export default function IndustriesPage() {
       <section className="page-hero">
         <div className="container">
           <Breadcrumbs items={[{ label: "Industries" }]} />
-          <h1>SEO Services by Industry</h1>
-          <p className="hero-desc">Every industry has unique search challenges. GobalCareSolutions develops tailored SEO strategies based on your sector, competition, and target audience.</p>
+          <h1>Digital Marketing by Industry</h1>
+          <p className="hero-desc">Every industry has unique marketing challenges. GobalCareSolutions develops tailored digital marketing strategies based on your sector, competition, and target audience.</p>
         </div>
       </section>
 

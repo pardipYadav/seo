@@ -5,10 +5,10 @@ import { services } from "@/data/services";
 import { packages } from "@/data/packages";
 
 const budgetOptions = [
-  "$1,000 - $1,500",
-  "$1,500 - $2,500",
-  "$2,500 - $5,000",
-  "$5,000+",
+  "$100 - $250",
+  "$250 - $500",
+  "$500 - $1,000",
+  "$1,000+",
 ];
 
 export default function ContactForm() {
@@ -67,7 +67,7 @@ export default function ContactForm() {
           <input type="url" id="website" name="website" placeholder="https://" />
         </div>
         <div className="form-group">
-          <label htmlFor="seoService">SEO Service</label>
+          <label htmlFor="seoService">Marketing Service</label>
           <select id="seoService" name="seoService">
             <option value="">Select a service</option>
             {services.map((s) => (
@@ -76,13 +76,13 @@ export default function ContactForm() {
           </select>
         </div>
         <div className="form-group">
-          <label htmlFor="seoPackage">SEO Package</label>
+          <label htmlFor="seoPackage">Marketing Package</label>
           <select id="seoPackage" name="seoPackage">
             <option value="">Select a package</option>
             {packages.map((p) => (
               <option key={p.id} value={p.id}>{p.name}</option>
             ))}
-            <option value="custom">Custom SEO</option>
+            <option value="custom">Custom Digital Marketing</option>
           </select>
         </div>
         <div className="form-group full-width">

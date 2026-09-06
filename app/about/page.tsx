@@ -94,7 +94,7 @@ export default function AboutPage() {
             <li><strong>Reporting & Refinement:</strong> Monthly performance reports and ongoing strategy adjustments.</li>
           </ol>
           <p style={{ marginTop: "2rem" }}>
-            <Link href="/contact" className="btn btn-primary">Get Free SEO Consultation</Link>
+            <Link href="/contact" className="btn btn-primary">Get Free Consultation</Link>
           </p>
         </div>
       </section>

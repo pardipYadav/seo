@@ -14,7 +14,7 @@ type ServicePageLayoutProps = {
 export default function ServicePageLayout({ service }: ServicePageLayoutProps) {
   const related = getRelatedServices(service.relatedSlugs);
   const breadcrumbs = [
-    { name: "SEO Services", url: "/seo-services" },
+    { name: "Services", url: "/seo-services" },
     { name: service.name, url: `/seo-services/${service.slug}` },
   ];
 
@@ -28,12 +28,12 @@ export default function ServicePageLayout({ service }: ServicePageLayoutProps) {
       <section className="page-hero">
         <div className="container">
           <Breadcrumbs items={[
-            { label: "SEO Services", href: "/seo-services" },
+            { label: "Digital Marketing Services", href: "/seo-services" },
             { label: service.name },
           ]} />
           <h1>{service.name}</h1>
           <p className="page-hero-desc">{service.description}</p>
-          <Link href="/contact" className="btn btn-primary">Get Free SEO Consultation</Link>
+          <Link href="/contact" className="btn btn-primary">Get Free Consultation</Link>
         </div>
       </section>
 

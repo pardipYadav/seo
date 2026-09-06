@@ -10,11 +10,11 @@ type CTASectionProps = {
 };
 
 export default function CTASection({
-  title = "Ready to Grow Your Organic Traffic?",
-  description = "Get a free SEO consultation and discover how GobalCareSolutions can help your business rank higher and attract more qualified leads.",
-  primaryText = "Get Free SEO Consultation",
+  title = "Ready to Grow Your Business Online?",
+  description = "Get a free consultation and discover how GobalCareSolutions can help your business with digital marketing, SEO, and online growth.",
+  primaryText = "Get Free Consultation",
   primaryHref = "/contact",
-  secondaryText = "View SEO Packages",
+  secondaryText = "View Marketing Packages",
   secondaryHref = "/seo-packages",
 }: CTASectionProps) {
   return (

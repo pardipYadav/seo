@@ -8,9 +8,9 @@ import { createMetadata } from "@/lib/metadata";
 import { services } from "@/data/services";
 
 export const metadata: Metadata = createMetadata({
-  title: "SEO Services | Local, Technical, On-Page & E-commerce SEO",
+  title: "Digital Marketing Services | SEO, Google Ads, Social Media & More",
   description:
-    "Explore professional SEO services from GobalCareSolutions including local SEO, technical SEO, on-page SEO, e-commerce SEO, keyword research, link building, and more.",
+    "Explore all digital marketing services from GobalCareSolutions: SEO, Google Ads, Social Media Marketing, Content Marketing, Email Marketing, Web Design, Local SEO, and more.",
   path: "/seo-services",
 });
 
@@ -19,16 +19,16 @@ export default function SEOServicesPage() {
     <>
       <section className="page-hero">
         <div className="container">
-          <Breadcrumbs items={[{ label: "SEO Services" }]} />
-          <h1>Professional SEO Services</h1>
-          <p className="hero-desc">Comprehensive search engine optimization services to improve your visibility, attract qualified traffic, and drive sustainable business growth.</p>
-          <Link href="/seo-packages" className="btn btn-primary">View SEO Packages</Link>
+          <Breadcrumbs items={[{ label: "Services" }]} />
+          <h1>Digital Marketing Services</h1>
+          <p className="hero-desc">Full-service digital marketing to grow your business online — including SEO, Google Ads, social media, content, email, web design, lead generation, and more.</p>
+          <Link href="/seo-packages" className="btn btn-primary">View Marketing Packages</Link>
         </div>
       </section>
 
       <section className="section">
         <div className="container">
-          <SectionHeading title="Our SEO Services" description="Each service is designed to address a specific dimension of search engine optimization." align="left" />
+          <SectionHeading title="All Services" description="Choose a service below to learn more about how GobalCareSolutions can help your business grow." align="left" />
           <ServicesGrid services={services} />
         </div>
       </section>

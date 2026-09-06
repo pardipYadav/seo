@@ -65,7 +65,7 @@ function SEODashboard() {
     <div className="seo-dashboard" aria-hidden="true">
       <div className="dash-header">
         <span className="dash-dot red" /><span className="dash-dot yellow" /><span className="dash-dot green" />
-        <span className="dash-title">SEO Performance Dashboard</span>
+        <span className="dash-title">Digital Marketing Dashboard</span>
       </div>
       <div className="dash-stats">
         <div className="dash-stat"><span className="dash-stat-label">Organic Traffic</span><span className="dash-stat-value">+24%</span></div>

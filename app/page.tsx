@@ -10,16 +10,16 @@ import CTASection from "@/components/CTASection";
 import { TrustIndicators, IndustryCard, TestimonialCard, ContactStrip } from "@/components/Cards";
 import { createMetadata } from "@/lib/metadata";
 import { services } from "@/data/services";
-import { packages, pricingDisclaimer, rankingDisclaimer } from "@/data/packages";
+import { packages } from "@/data/packages";
 import { homepageFaqs } from "@/data/faqs";
 import { industries, trustPoints, whyChooseUs, seoBenefits } from "@/data/industries";
 import { testimonials } from "@/data/testimonials";
 import { faqJsonLd, JsonLdScript } from "@/lib/jsonLd";
 
 export const metadata: Metadata = createMetadata({
-  title: "GobalCareSolutions | Professional SEO Services & SEO Packages",
+  title: "GobalCareSolutions | Professional Digital Marketing Services & Packages",
   description:
-    "Grow your online visibility with professional SEO services from GobalCareSolutions. Explore SEO packages starting at $1,000, including local SEO, technical SEO, e-commerce SEO, keyword research, content SEO, and more.",
+    "Grow your business online with professional digital marketing from GobalCareSolutions. Packages starting at $100/month including SEO, social media, content marketing, and more.",
   path: "/",
 });
 
@@ -28,10 +28,10 @@ export default function HomePage() {
     <>
       <JsonLdScript data={faqJsonLd(homepageFaqs)} />
       <Hero
-        title="Grow Your Business With Professional SEO Services"
-        description="GobalCareSolutions helps businesses improve search visibility, attract qualified organic traffic, and build sustainable online growth through strategic SEO services tailored to their goals."
-        primaryCta={{ text: "View SEO Packages", href: "/seo-packages" }}
-        secondaryCta={{ text: "Get Free SEO Consultation", href: "/contact" }}
+        title="Grow Your Business With Professional Digital Marketing"
+        description="GobalCareSolutions helps businesses improve online visibility, attract qualified traffic, and build sustainable growth through strategic digital marketing services — including SEO, social media, and content marketing."
+        primaryCta={{ text: "View Marketing Packages", href: "/seo-packages" }}
+        secondaryCta={{ text: "Get Free Consultation", href: "/contact" }}
         showContact
         showDashboard
       />
@@ -39,29 +39,26 @@ export default function HomePage() {
 
       <section className="section">
         <div className="container">
-          <SectionHeading label="Services" title="Professional SEO Services" description="Comprehensive search engine optimization services designed to improve your visibility, traffic, and conversions." />
-          <ServicesGrid services={services.slice(0, 6)} />
-          <p className="text-center" style={{ marginTop: "2rem" }}>
-            <Link href="/seo-services" className="btn btn-secondary">View All SEO Services</Link>
-          </p>
+          <SectionHeading label="Services" title="Our Digital Marketing Services" description="Full-service digital marketing including SEO, paid ads, social media, content, email, web design, and more." />
+          <ServicesGrid services={services} />
         </div>
       </section>
 
       <section className="section section-alt">
         <div className="container">
-          <SectionHeading label="Pricing" title="SEO Packages Starting at $1,000" description="Transparent pricing with packages designed for businesses at every stage of growth." />
+          <SectionHeading label="Pricing" title="Digital Marketing Packages Starting at $100" description="Affordable, transparent packages with SEO included — designed for businesses at every stage." />
           <div className="grid-3">
             {packages.slice(0, 3).map((pkg) => <PricingCard key={pkg.id} pkg={pkg} />)}
           </div>
           <p className="text-center" style={{ marginTop: "2rem" }}>
-            <Link href="/seo-packages" className="btn btn-primary">View All SEO Packages</Link>
+            <Link href="/seo-packages" className="btn btn-primary">View All Packages</Link>
           </p>
         </div>
       </section>
 
       <section className="section">
         <div className="container">
-          <SectionHeading label="Why Us" title="Why Choose GobalCareSolutions" description="We combine ethical practices, transparent reporting, and data-driven strategies to deliver sustainable SEO results." />
+          <SectionHeading label="Why Us" title="Why Choose GobalCareSolutions" description="We combine ethical practices, transparent reporting, and data-driven strategies to deliver sustainable digital marketing results." />
           <div className="grid-2">
             {whyChooseUs.map((item) => (
               <div key={item.title} className="card">
@@ -77,7 +74,7 @@ export default function HomePage() {
 
       <section className="section section-alt">
         <div className="container">
-          <SectionHeading label="Industries" title="SEO for Every Industry" description="Tailored SEO strategies for businesses across diverse sectors and markets." />
+          <SectionHeading label="Industries" title="Digital Marketing for Every Industry" description="Tailored marketing strategies for businesses across diverse sectors and markets." />
           <div className="grid-3">
             {industries.slice(0, 6).map((ind) => (
               <IndustryCard key={ind.slug} name={ind.name} description={ind.description} slug={ind.slug} />
@@ -91,7 +88,7 @@ export default function HomePage() {
 
       <section className="section">
         <div className="container">
-          <SectionHeading label="Benefits" title="Benefits of SEO for Your Business" description="Investing in SEO delivers compounding returns that strengthen your online presence over time." />
+          <SectionHeading label="Benefits" title="Benefits of Digital Marketing for Your Business" description="Investing in digital marketing delivers compounding returns that strengthen your online presence over time." />
           <div className="grid-3">
             {seoBenefits.map((b) => (
               <div key={b.title} className="card">
@@ -105,12 +102,12 @@ export default function HomePage() {
 
       <section className="section section-alt">
         <div className="container">
-          <SectionHeading label="Case Studies" title="Sample Case Studies" description="Explore example SEO strategies and approaches. Replace sample case studies with verified client projects before production launch." />
+          <SectionHeading label="Case Studies" title="Sample Case Studies" description="Explore example digital marketing strategies and approaches. Replace sample case studies with verified client projects before production launch." />
           <div className="grid-3">
             {[
-              { title: "Local SEO Strategy", desc: "A structured approach to improving local search visibility, Google Maps rankings, and citation consistency for a service-area business." },
-              { title: "E-commerce SEO Strategy", desc: "Product page optimization, category structure improvements, and technical SEO for an online store with a large product catalog." },
-              { title: "Technical SEO Improvement", desc: "Site-wide technical audit, crawl optimization, and Core Web Vitals improvements for a business website experiencing indexing issues." },
+              { title: "Local Marketing Strategy", desc: "A structured approach to improving local search visibility, Google Maps rankings, and social presence for a service-area business." },
+              { title: "E-commerce Marketing Strategy", desc: "Product page SEO, social media promotion, and content marketing for an online store with a large product catalog." },
+              { title: "Digital Presence Improvement", desc: "Site-wide SEO audit, social media setup, and content strategy for a business building its online presence." },
             ].map((cs) => (
               <div key={cs.title} className="card">
                 <span className="sample-badge">Sample Case Study</span>
@@ -135,7 +132,7 @@ export default function HomePage() {
 
       <section className="section section-alt">
         <div className="container">
-          <SectionHeading label="FAQ" title="Frequently Asked Questions" description="Common questions about SEO services, pricing, and getting started." />
+          <SectionHeading label="FAQ" title="Frequently Asked Questions" description="Common questions about digital marketing services, pricing, and getting started." />
           <FAQ items={homepageFaqs} />
           <p className="text-center" style={{ marginTop: "2rem" }}>
             <Link href="/faq">View All FAQs &rarr;</Link>

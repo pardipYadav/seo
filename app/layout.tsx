@@ -20,11 +20,11 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   title: {
-    default: "GobalCareSolutions | Professional SEO Services & SEO Packages",
+    default: "GobalCareSolutions | Digital Marketing Services & Packages",
     template: "%s | GobalCareSolutions",
   },
   description:
-    "Grow your online visibility with professional SEO services from GobalCareSolutions. Explore SEO packages starting at $1,000, including local SEO, technical SEO, e-commerce SEO, keyword research, content SEO, and more.",
+    "Grow your business online with professional digital marketing from GobalCareSolutions. Packages starting at $100/month including SEO, social media, and content marketing.",
   metadataBase: new URL(siteConfig.url),
   icons: {
     icon: "/logo.png",
