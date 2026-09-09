@@ -16,6 +16,7 @@ const nextConfig: NextConfig = {
       { source: "/seo-services/competitor-analysis", destination: "/seo-services/analytics-reporting", permanent: true },
       { source: "/seo-services/seo-consulting", destination: "/seo-services/seo", permanent: true },
       { source: "/seo-services/website-seo", destination: "/seo-services/seo", permanent: true },
+      { source: "/case-studies", destination: "/contact", permanent: true },
     ];
   },
 };

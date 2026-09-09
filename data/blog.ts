@@ -89,7 +89,7 @@ export const blogPosts: BlogPost[] = [
         level: 2,
         paragraphs: [
           "Start with an SEO audit to understand your current visibility, technical health, and competitive landscape. From there, prioritize keyword research, on-page optimization, and content creation aligned with your business goals.",
-          "GobalCareSolutions offers SEO packages starting at $1,000 per month, including audits, keyword research, and ongoing optimization tailored to your needs.",
+          "GobalCareSolutions offers SEO packages starting at $100 per month, including audits, keyword research, and ongoing optimization tailored to your needs.",
         ],
       },
     ],
@@ -156,7 +156,7 @@ export const blogPosts: BlogPost[] = [
         heading: "GobalCareSolutions SEO Packages",
         level: 2,
         paragraphs: [
-          "GobalCareSolutions offers transparent packages starting at $1,000 per month. Our SEO Starter plan covers audits, keyword research, and on-page optimization for small businesses. Growth and Pro plans add advanced research, content strategy, and authority building for competitive markets.",
+          "GobalCareSolutions offers transparent packages starting at $100 per month. Our Digital Marketing Starter plan covers audits, keyword research, and on-page optimization for small businesses. Growth and Pro plans add advanced research, content strategy, and authority building for competitive markets.",
           "Final pricing may vary based on your specific requirements. We provide custom proposals for enterprise and e-commerce clients with unique needs.",
         ],
       },
@@ -334,46 +334,6 @@ export const blogPosts: BlogPost[] = [
         ],
       },
     ],
-  },
-  {
-    slug: "on-page-seo-checklist",
-    title: "On-Page SEO Checklist",
-    excerpt:
-      "Optimize titles, meta descriptions, headings, content, and internal links with this actionable on-page SEO checklist.",
-    date: "2026-03-15",
-    readTime: "8 min read",
-    category: "On-Page SEO",
-    complete: false,
-  },
-  {
-    slug: "seo-vs-google-ads",
-    title: "SEO vs Google Ads",
-    excerpt:
-      "Compare organic SEO and paid search advertising to determine the right mix for your business marketing strategy.",
-    date: "2026-04-01",
-    readTime: "7 min read",
-    category: "SEO Strategy",
-    complete: false,
-  },
-  {
-    slug: "keyword-research-guide",
-    title: "Keyword Research Guide",
-    excerpt:
-      "Learn how to find, analyze, and prioritize keywords that drive qualified organic traffic to your website.",
-    date: "2026-04-15",
-    readTime: "9 min read",
-    category: "Keyword Research",
-    complete: false,
-  },
-  {
-    slug: "common-seo-mistakes-to-avoid",
-    title: "Common SEO Mistakes to Avoid",
-    excerpt:
-      "Avoid these frequent SEO pitfalls that waste budget, harm rankings, and prevent sustainable organic growth.",
-    date: "2026-05-01",
-    readTime: "8 min read",
-    category: "SEO Strategy",
-    complete: false,
   },
 ];
 

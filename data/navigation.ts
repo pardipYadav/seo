@@ -10,7 +10,6 @@ export const mainNav: NavItem[] = [
   { label: "Services", href: "/seo-services", hasDropdown: true },
   { label: "Packages", href: "/seo-packages" },
   { label: "Industries", href: "/industries" },
-  { label: "Case Studies", href: "/case-studies" },
   { label: "Blog", href: "/blog" },
   { label: "FAQ", href: "/faq" },
   { label: "Contact", href: "/contact" },

@@ -4,7 +4,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { BlogCard } from "@/components/Cards";
 import CTASection from "@/components/CTASection";
 import { createMetadata } from "@/lib/metadata";
-import { blogPosts } from "@/data/blog";
+import { getCompleteBlogPosts } from "@/data/blog";
 
 export const metadata: Metadata = createMetadata({
   title: "SEO Blog | Tips, Guides & Insights",
@@ -14,6 +14,8 @@ export const metadata: Metadata = createMetadata({
 });
 
 export default function BlogPage() {
+  const blogPosts = getCompleteBlogPosts();
+
   return (
     <>
       <section className="page-hero">

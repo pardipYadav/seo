@@ -7,13 +7,12 @@ import PricingCard from "@/components/PricingCard";
 import ProcessSection from "@/components/ProcessSection";
 import FAQ from "@/components/FAQ";
 import CTASection from "@/components/CTASection";
-import { TrustIndicators, IndustryCard, TestimonialCard, ContactStrip } from "@/components/Cards";
+import { TrustIndicators, IndustryCard, ContactStrip } from "@/components/Cards";
 import { createMetadata } from "@/lib/metadata";
 import { services } from "@/data/services";
 import { packages } from "@/data/packages";
 import { homepageFaqs } from "@/data/faqs";
 import { industries, trustPoints, whyChooseUs, seoBenefits } from "@/data/industries";
-import { testimonials } from "@/data/testimonials";
 import { faqJsonLd, JsonLdScript } from "@/lib/jsonLd";
 
 export const metadata: Metadata = createMetadata({
@@ -33,7 +32,6 @@ export default function HomePage() {
         primaryCta={{ text: "View Marketing Packages", href: "/seo-packages" }}
         secondaryCta={{ text: "Get Free Consultation", href: "/contact" }}
         showContact
-        showDashboard
       />
       <TrustIndicators items={trustPoints} />
 
@@ -96,36 +94,6 @@ export default function HomePage() {
                 <p className="text-muted">{b.description}</p>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="section section-alt">
-        <div className="container">
-          <SectionHeading label="Case Studies" title="Sample Case Studies" description="Explore example digital marketing strategies and approaches. Replace sample case studies with verified client projects before production launch." />
-          <div className="grid-3">
-            {[
-              { title: "Local Marketing Strategy", desc: "A structured approach to improving local search visibility, Google Maps rankings, and social presence for a service-area business." },
-              { title: "E-commerce Marketing Strategy", desc: "Product page SEO, social media promotion, and content marketing for an online store with a large product catalog." },
-              { title: "Digital Presence Improvement", desc: "Site-wide SEO audit, social media setup, and content strategy for a business building its online presence." },
-            ].map((cs) => (
-              <div key={cs.title} className="card">
-                <span className="sample-badge">Sample Case Study</span>
-                <h3>{cs.title}</h3>
-                <p className="text-muted">{cs.desc}</p>
-                <Link href="/case-studies">View Case Study &rarr;</Link>
-              </div>
-            ))}
-          </div>
-        </div>
-        <style>{`.sample-badge { display: inline-block; font-size: 0.6875rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; background: var(--color-primary-light); color: var(--color-primary); padding: 0.25rem 0.75rem; border-radius: 999px; margin-bottom: 0.75rem; }`}</style>
-      </section>
-
-      <section className="section">
-        <div className="container">
-          <SectionHeading label="Testimonials" title="What Clients Say" description="Feedback from businesses that have worked with GobalCareSolutions." />
-          <div className="grid-3">
-            {testimonials.map((t, i) => <TestimonialCard key={i} {...t} />)}
           </div>
         </div>
       </section>

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { BlogPost } from "@/data/blog";
+import { siteConfig } from "@/lib/siteConfig";
 
 export function BlogCard({
   post,
@@ -82,8 +83,8 @@ export function ContactStrip() {
           <p>Ready to discuss your SEO goals? Contact GobalCareSolutions today.</p>
         </div>
         <div className="contact-strip-info">
-          <a href="mailto:gobalcaresolutions@outlook.com">gobalcaresolutions@outlook.com</a>
-          <a href="tel:+18583319355">1-858-331-9355</a>
+          <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
+          <a href={`tel:${siteConfig.phoneTel}`}>{siteConfig.phone}</a>
         </div>
       </div>
       <style>{`

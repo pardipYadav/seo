@@ -6,7 +6,6 @@ import { packages } from "@/data/packages";
 const companyLinks = [
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
-  { label: "Case Studies", href: "/case-studies" },
   { label: "Blog", href: "/blog" },
   { label: "FAQ", href: "/faq" },
 ];
