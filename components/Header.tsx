@@ -20,7 +20,7 @@ export default function Header() {
       <div className="header-top">
         <div className="container header-top-inner">
           <span className="header-phone">
-            Toll Free: <a href={`tel:${siteConfig.phoneTel}`}>{siteConfig.phone}</a>
+            {/* Toll Free: <a href={`tel:${siteConfig.phoneTel}`}>{siteConfig.phone}</a> */}
           </span>
           <a href={`mailto:${siteConfig.email}`} className="header-email">{siteConfig.email}</a>
         </div>

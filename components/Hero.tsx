@@ -34,7 +34,7 @@ export default function Hero({
             )}
             {showContact && (
               <div className="hero-contact">
-                <div>Toll Free: <a href={`tel:${siteConfig.phoneTel}`}>{siteConfig.phone}</a></div>
+                {/* <div>Toll Free: <a href={`tel:${siteConfig.phoneTel}`}>{siteConfig.phone}</a></div> */}
                 <div>Email: <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a></div>
               </div>
             )}
